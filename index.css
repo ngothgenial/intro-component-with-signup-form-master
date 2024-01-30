@@ -1,0 +1,107 @@
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+}
+
+.h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.description {
+    color: white;
+    font-size: large;
+    font-weight: normal;
+
+}
+
+.box-1 {
+    width: 450px;
+    height: 50px;
+    background-color: hsl(248, 32%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.5);
+
+}
+.price-day{
+    color: white;
+    font-weight: bold;
+}
+.price{
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.box-2 {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 25px;
+    box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+    height: 80px;
+    outline: none;
+}
+
+
+.invalid-feedback {
+    text-align: end;
+    font-size: xx-small;
+    font-weight:bold ;
+    outline: none;
+}
+input{
+    outline: none;
+}
+
+.btn{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+    height: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(154, 80%, 22%);
+    color: white;
+   
+}
+
+footer{
+    font-size: x-small;
+    text-align: center;
+    margin-top: 5px;
+}
+.tearms{
+    text-decoration: none;
+    color:  hsl(0, 100%, 74%) ;
+    font-weight: bold;
+}
